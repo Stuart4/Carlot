@@ -1,4 +1,3 @@
-import java.util.Arrays;
 class CarLot implements Inventory<Car> {
 	private int index = 0;
 	private int numVehicles = 0;

@@ -15,7 +15,6 @@ public class Main {
         carLot.add(new Car("red", "chevy"));   // 3
         carLot.add(new Car("blue", "ford"));   // 4
         carLot.add(new Car("orange", "gm"));   // 5
-		carLot.printInventory();
 
         Scanner sc = new Scanner(System.in);
         while (true) {
