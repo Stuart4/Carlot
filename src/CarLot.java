@@ -59,11 +59,6 @@ class CarLot implements Inventory<Car> {
 		}
 	}
 
-	//TODO remove
-	public void printInventory() {
-		System.out.println(Arrays.toString(inventory));
-	}
-
 	@Override
 	public boolean[] searchByMake(String make) {
 		boolean[] results = new boolean[capacity()];
